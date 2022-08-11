@@ -19,7 +19,10 @@ class HealthFacilities extends Model
 
         //raw query to insert
         //query builder
-        $result = DB::table('health_facilities')->select(DB::raw(' *, COUNT(properties_id) AS facility_number, COUNT(DISTINCT properties_lga_name) AS lga_count'))->groupBy('properties_state_name')->orderBy('properties_state_name')->get();
+        $result = DB::table('health_facilities')
+            ->select(DB::raw(' *, COUNT(properties_id) AS facility_number, COUNT(DISTINCT properties_lga_name) AS lga_count'))->groupBy('properties_state_name')
+            ->orderBy('properties_state_name')
+            ->get();
 
         return $result;
     }

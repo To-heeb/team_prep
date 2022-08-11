@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>VitA-ccess - Homepage</title>
+    <title>ViTAccess - Homepage</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="{{ asset('admin/images/logo-mini.svg') }}" rel="shortcut icon" type="image/x-icon">
+    <link href="{{ asset('landing/img/vitacess-logo.png') }}" rel="shortcut icon" type="image/x-icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +45,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="text-primary fw-bold m-0">VitA-ccess</h1>
+            <h1 class="text-primary fw-bold m-0">ViTAccess</h1>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -58,7 +58,7 @@
                 <a href="#service" class="nav-item nav-link">Services</a> --}}
             </div>
             <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
-                <h1 class="text-primary fw-bold m-0">VitA-ccess</h1>
+                <h1 class="text-primary fw-bold m-0">ViTAccess</h1>
             </a>
             <div class="navbar-nav me-auto py-0">
                 {{-- <a href="#project" class="nav-item nav-link">Projects</a> --}}
@@ -77,13 +77,13 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-12 py-6 pb-5 text-center pt-5">
                     <h3 class="text-primary mb-3">Welcome to</h3>
-                    <h1 class="display-3 mb-3">Team VitA-ccess</h1>
-                    <h2 class="typed-text-output d-inline"></h2>
+                    <h1 class="display-3 mb-3">ViTAccess</h1>
+                    <h4 class="typed-text-output d-inline"><i></i></h4>
                     <div class="typed-text d-none pb-3">Collaboration, Values, Deligience</div>
                     <div class="d-flex align-items-center justify-content-center px-5 mx-5" >
                         {{-- <a href="{{ route('login') }}" class="btn btn-primary py-3 px-4 me-5">Login</a> --}}
                         <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            data-src="https://www.youtube.com/watch?v=9CyW09S5Le8" data-bs-target="#videoModal">
                             <span></span>
                         </button>
                         <h3 class="ms-4 d-none d-sm-block">What is PrEP ?</h3>
@@ -109,8 +109,7 @@
                 <div class="modal-body">
                     <!-- 16:9 aspect ratio -->
                     <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/9CyW09S5Le8" title="#AskTheHIVDoc: What is PrEP? (1:22)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -140,14 +139,14 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3 mb-4">
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="{{ asset('landing/img/about-1.jpg')}}" alt="">
+                            <img class="img-fluid rounded" src="{{ asset('landing/img/blue-and-yellow.png')}}" alt="">
                         </div>
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="{{ asset('landing/img/about-2.jpg')}}" alt="">
+                            <img class="img-fluid rounded" src="{{ asset('landing/img/blue-and-yellow.png')}}" alt="">
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
+                        <h5 class="border-end pe-3 me-3 mb-0">Primary Health</h5>
                         <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2>
                     </div>
                     <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p>
@@ -576,7 +575,7 @@
                 </div>
                 <div class="col-lg-6 text-lg-end">
                     
-                    <a class="btn btn-primary py-3 px-5" href="https://wa.me/2349160169845?text=Hi%2C+can+I+get+more+info+about+Kiss+Nigeria%3F"> Say Hello</a>
+                    <a class="btn btn-primary py-3 px-5" href="https://wa.me/2347056919879?text=Hello%20Vita-ccess%20%0D%0AI%27d%20like%20to%20collaborate%20with%20your%20team"> Say Hello</a>
                 </div>
             </div>
             <div class="row g-5">
@@ -585,21 +584,21 @@
                     <h3 class="fw-bold">123 Street, New York, USA</h3> --}}
                     <hr class="w-100">
                     <p class="mb-2">Call Us:</p>
-                    <h3 class="fw-bold">+234 XXX XXX XXXX</h3>
+                    <h3 class="fw-bold">+234 705 691 9879</h3>
                     <hr class="w-100">
                     <p class="mb-2">Mail Us:</p>
                     <h3 class="fw-bold">info@vita-ccess.com</h3>
                     <hr class="w-100">
                     <p class="mb-2">Follow Us:</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://wa.me/2347056919879?text=Hello%20Vita-ccess%20%0D%0AI%27d%20like%20to%20get%20more%20information%20about%20PrEP"><i class="fab fa-whatsapp"></i></a>
                         <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <p class="mb-4">Send Us a mail.</p>
                     <form>
                         <div class="row g-3">
                             <div class="col-md-6">
