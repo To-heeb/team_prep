@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
 
 /*
@@ -25,6 +26,10 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('auth.register');
 });
+
+Route::get('states', [HomeController::class, 'states']);
+
+Route::get('hospitals', [HomeController::class, 'search']);
 
 Route::get('admin/dashboard', [UserController::class, 'index'])->middleware('auth');
 

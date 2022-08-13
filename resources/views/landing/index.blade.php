@@ -30,6 +30,9 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('landing/css/style.css') }}" rel="stylesheet">
+
+    {{-- FOnt awesome --}}
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
@@ -79,15 +82,16 @@
                     <h3 class="text-primary mb-3">Welcome to</h3>
                     <h1 class="display-3 mb-3">ViTAccess</h1>
                     <h4 class="typed-text-output d-inline"><i></i></h4>
-                    <div class="typed-text d-none pb-3">Collaboration, Values, Deligience</div>
+                    <div class="typed-text d-none pb-3 mx-4">Collaboration, Values, Deligience, Truthworthy</div>
                     <div class="d-flex align-items-center justify-content-center px-5 mx-5" >
                         {{-- <a href="{{ route('login') }}" class="btn btn-primary py-3 px-4 me-5">Login</a> --}}
                         <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/watch?v=9CyW09S5Le8" data-bs-target="#videoModal">
                             <span></span>
                         </button>
-                        <h3 class="ms-4 d-none d-sm-block">What is PrEP ?</h3>
+                        <h3 class="ms-4 d-none d-sm-block mb-5">What is PrEP ?</h3>
                     </div>
+                    <a href="/states" class="mt-4 btn btn-primary">Search for PrEP administering centers</a>
                 </div>
                 {{-- <div class="col-lg-6">
                     <img class="img-fluid" src="{{ asset('landing/img/profile.png') }}" alt="">
@@ -125,36 +129,36 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="d-flex align-items-center mb-5">
                         <div class="years flex-shrink-0 text-center me-4">
-                            <h1 class="display-1 mb-0">15</h1>
-                            <h5 class="mb-0">Years</h5>
+                            <h1 class="display-2 mb-0">PrEP</h1>
+                            <h5 class="mb-0"></h5>
                         </div>
-                        <h3 class="lh-base mb-0">of working experience as a web designer & developer</h3>
+                        <h3 class="lh-base mb-0">Pre-exposure prophylaxis</h3>
                     </div>
-                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
+                    <p class="mb-4">PrEP (pre-exposure prophylaxis) is medicine that reduces your chances of getting HIV from sex or injection drug use. When taken as prescribed, PrEP is highly effective for preventing HIV</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Afordable Prices</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>High Quality Product</p>
-                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>On Time Project Delivery</p>
-                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Community driven</p>
+                    <a class="btn btn-primary py-3 px-5 mt-3" href="#faq">Read More</a>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3 mb-4">
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="{{ asset('landing/img/blue-and-yellow.png')}}" alt="">
+                            <img class="img-fluid rounded" src="{{ asset('landing/img/blue-and-yellow-two.png')}}" alt="">
                         </div>
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="{{ asset('landing/img/blue-and-yellow.png')}}" alt="">
+                            <img class="img-fluid rounded" src="{{ asset('landing/img/daily_prep.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <h5 class="border-end pe-3 me-3 mb-0">Primary Health</h5>
-                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2>
+                        <h5 class="border-end pe-3 me-3 mb-0">Health Center Around</h5>
+                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">46146</h2>
                     </div>
-                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p>
-                    <div class="d-flex align-items-center mb-3">
+                    <p class="mb-4">VITACCESS enables targets to access detailed and verified information about PrEP through outreach and digital platforms (our website and a whatsapp community) while also linking them to their preferred locations for access or delivery sites close to them.</p>
+                    {{-- <div class="d-flex align-items-center mb-3">
                         <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
                         <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2>
                     </div>
-                    <p class="mb-0">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p>
+                    <p class="mb-0">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p> --}}
                 </div>
             </div>
         </div>
@@ -310,7 +314,7 @@
         <div class="container">
             <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">My Services</h1>
+                    <h1 class="display-5 mb-0">Our Services</h1>
                 </div>
                 {{-- <div class="col-lg-6 text-lg-end">
                     <a class="btn btn-primary py-3 px-5" href="">Hire Me</a>
@@ -320,48 +324,49 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fa fa-crop-alt fa-2x text-dark"></i>
+                            <i class="fas fa-map-marker-alt fa-2x text-dark"></i>
                         </div>
                         <div class="ms-sm-4">
-                            <h4 class="mb-3">Creative Design</h4>
-                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
-                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                            <h4 class="mb-3"><i>PrEP locator</i></h4>
+                            {{-- <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6> --}}
+                            <span>Find where to get PrEP in your community and get it at your convenience 
+                            </span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fa fa-code-branch fa-2x text-dark"></i>
+                            <i class="fa fa-ambulance fa-2x text-dark"></i>
                         </div>
                         <div class="ms-sm-4">
-                            <h4 class="mb-3">Graphic Design</h4>
-                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
-                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                            <h4 class="mb-3"><i>PrEP on the Go</i></h4>
+                            {{-- <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6> --}}
+                            <span>A Mobile PrEP clinic that provides HIV self testing services and PrEP with 100% anonymity. We are available at your youth-friendly outreaches.</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fa fa-code fa-2x text-dark"></i>
+                            <i class="fas fa-user-friends fa-2x text-dark"></i>
                         </div>
                         <div class="ms-sm-4">
-                            <h4 class="mb-3">Web Design</h4>
-                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
-                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                            <h4 class="mb-3"><i> Vita Community</i></h4>
+                            {{-- <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6> --}}
+                            <span>Join our community of PrEP,A safe space where you can interact with other peers. Get the latest info in the development and advancement of PrEP </span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                            <i class="far fa-comments fa-2x text-dark"></i>
                         </div>
                         <div class="ms-sm-4">
-                            <h4 class="mb-3">UI/UX Design</h4>
-                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
-                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                            <h4 class="mb-3"><i>Vita Padi</i></h4>
+                            {{-- <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6> --}}
+                            <span>Chat with one of our professionals about HIV/AIDS  and how you can prevent yourself </span>
                         </div>
                     </div>
                 </div>
@@ -376,63 +381,54 @@
         <div class="container">
             <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">My Projects</h1>
+                    <h1 class="display-5 mb-0">Field Work</h1>
                 </div>
                 <div class="col-lg-6 text-lg-end">
                     <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
                         <li class="mx-3 active" data-filter="*">All Projects</li>
-                        <li class="mx-3" data-filter=".first">UI/UX Design</li>
-                        <li class="mx-3" data-filter=".second">Graphic Design</li>
+                        {{-- <li class="mx-3" data-filter=".first">All Photos</li> --}}
+                        {{-- <li class="mx-3" data-filter=".second">Graphic Design</li> --}}
                     </ul>
                 </div>
             </div>
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="{{ asset('landing/img/project-1.jpg')}}" alt="">
+                        <img class="img-fluid" src="{{ asset('landing/img/group_pic1.jpg')}}" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{{ asset('landing/img/project-1.jpg')}}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="{{ asset('landing/img/project-2.jpg')}}" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{{ asset('landing/img/project-2.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{{ asset('landing/img/group_pic1.jpg')}}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="{{ asset('landing/img/project-3.jpg')}}" alt="">
+                        <img class="img-fluid" src="{{ asset('landing/img/group_pic4.jpg')}}" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{{ asset('landing/img/project-3.jpg')}}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="{{ asset('landing/img/project-4.jpg')}}" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{{ asset('landing/img/project-4.jpg')}}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{{ asset('landing/img/group_pic4.jpg')}}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first">
                     <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="{{ asset('landing/img/project-5.jpg')}}" alt="">
+                        <img class="img-fluid" src="{{ asset('landing/img/group_pic3.jpg')}}" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{{ asset('landing/img/project-5.jpg')}}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{{ asset('landing/img/group_pic3.jpg')}}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="{{ asset('landing/img/group_pic2.jpg')}}" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{{ asset('landing/img/group_pic2.jpg')}}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                {{-- <div class="col-lg-4 col-md-6 portfolio-item second">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="{{ asset('landing/img/project-6.jpg')}}" alt="">
                         <div class="portfolio-btn">
@@ -440,7 +436,7 @@
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -461,11 +457,11 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
-                        <img class="img-fluid rounded" src="{{ asset('landing/img/team-1.jpg')}}" alt="">
+                        <img class="img-fluid rounded" src="{{ asset('landing/img/member2.jpg')}}" alt="">
                         <div class="team-text bg-white rounded-end p-4">
                             <div>
-                                <h5>Full Name</h5>
-                                <span>Designer</span>
+                                <h5><a target="_blank" href="https://www.linkedin.com/in/mary-funmilayo-oni-5030671a8">Mary Funmilayo Oni</a></h5>
+                                <span>Pharmacist</span>
                             </div>
                             <i class="fa fa-arrow-right fa-2x text-primary"></i>
                         </div>
@@ -473,11 +469,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item position-relative">
-                        <img class="img-fluid rounded" src="{{ asset('landing/img/team-2.jpg')}}" alt="">
+                        <img class="img-fluid rounded" src="{{ asset('landing/img/member3.jpeg')}}" alt="">
                         <div class="team-text bg-white rounded-end p-4">
                             <div>
-                                <h5>Full Name</h5>
-                                <span>Designer</span>
+                                <h5><a target="_blank" href="https://www.linkedin.com/in/adebanjo-netufo-74810b201">Adebanjo Netufo</a></h5>
+                                <span>Medical Doctor</span>
                             </div>
                             <i class="fa fa-arrow-right fa-2x text-primary"></i>
                         </div>
@@ -485,11 +481,35 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative">
-                        <img class="img-fluid rounded" src="{{ asset('landing/img/team-3.jpg')}}" alt="">
+                        <img class="img-fluid rounded" src="{{ asset('landing/img/member4.jpg')}}" alt="">
                         <div class="team-text bg-white rounded-end p-4">
                             <div>
-                                <h5>Full Name</h5>
-                                <span>Designer</span>
+                                <h5><a target="_blank" href="https://www.linkedin.com/in/boibash">Bashirudeen (Ibrahim) Opeyemi</a></h5>
+                                <span>Pharmacist</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="{{ asset('landing/img/member5.jpeg')}}" alt="" height="200">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5><a target="_blank" href="https://www.linkedin.com/in/nneka-amakom-7564401b3">Nneka Amakom</a></h5>
+                                <span>Medical Doctor</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="{{ asset('landing/img/member1.jpeg')}}" alt="" height="200">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5><a target="_blank" href="https://www.linkedin.com/in/joshua-simpa-lawal-49111a180">Joshua Simpa Lawal</a></h5>
+                                <span>Medical Doctor</span>
                             </div>
                             <i class="fa fa-arrow-right fa-2x text-primary"></i>
                         </div>
@@ -502,67 +522,105 @@
 
 
     <!-- Testimonial Start -->
-    {{-- <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+    <div class="container-fluid bg-light py-5 my-5" id="faq">
         <div class="container-fluid py-5">
-            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1>
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">F.A.Q</h1>
             <div class="row justify-content-center">
-                <div class="col-lg-3 d-none d-lg-block">
+                <div class="col-lg-2 d-none d-lg-block">
                     <div class="testimonial-left h-100">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="{{ asset('landing/img/testimonial-1.jpg')}}" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="{{ asset('landing/img/testimonial-2.jpg')}}" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="{{ asset('landing/img/testimonial-3.jpg')}}" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="{{ asset('landing/img/prep.png')}}" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="{{ asset('landing/img/people.png')}}" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="{{ asset('landing/img/chat.png')}}" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="{{ asset('landing/img/testimonial-1.jpg' )}}" alt="">
-                                <div class="testimonial-icon">
-                                    <i class="fa fa-quote-left text-primary"></i>
-                                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is PrEP ?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Oral PrEP</strong> is a pill containing antiretroviral (ARV) medication that can be taken by HIV-negative people once a day to protect them from getting HIV.<br>
+                                PrEP stands for pre-exposure prophylaxis. This means:<br>
+                                •	PRE – Before<br>
+                                •	Exposure – coming into contact with HIV<br>
+                                •	Prophylaxis – medication to prevent an infection
+
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
+                          </div>
                         </div>
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="{{ asset('landing/img/testimonial-2.jpg')}}" alt="">
-                                <div class="testimonial-icon">
-                                    <i class="fa fa-quote-left text-primary"></i>
-                                </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Can PrEP prevent HIV infection ?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              
+                              <strong>Oral PrEP</strong> is an additional option for HIV prevention. It is designed to contribute to the existing package of HIV prevention options—including abstinence, condoms (and lubricant), STI screening and treatment, and reducing number of sexual partners—not replace them. <br>
+                              Each method has its benefits and challenges, and the best approach varies by individual and relationship. <br>
+                              People need to think about what method will work best for them given their own particular needs. For example, they may need to think about protection from HIV, STIs and pregnancy.
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
+                          </div>
                         </div>
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="{{ asset('landing/img/testimonial-3.jpg')}}" alt="">
-                                <div class="testimonial-icon">
-                                    <i class="fa fa-quote-left text-primary"></i>
-                                </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              What is Combination Prevention ?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              The term  <strong>combination prevention</strong>  often refers to programs that implement different types of interventions aimed at reducing HIV transmission within a community or group of people. In this training package, the term refers to someone using multiple prevention methods, such as condoms (and lubricant), STI screening and treatment, and oral PrEP, to maximise protection from HIV and other unwanted sexual health outcomes.<br>
+                                There are many ways people can protect themselves from HIV or prevent the spread of the virus to others.
+
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
+                          </div>
                         </div>
-                    </div>
+                        {{-- <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                              <button class="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is Combination Prevention ?
+                              </button>
+                            </h2>
+                            <div id="collapseFOur" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                The term  <strong>combination prevention</strong>  often refers to programs that implement different types of interventions aimed at reducing HIV transmission within a community or group of people. In this training package, the term refers to someone using multiple prevention methods, such as condoms (and lubricant), STI screening and treatment, and oral PrEP, to maximise protection from HIV and other unwanted sexual health outcomes.
+                                  There are many ways people can protect themselves from HIV or prevent the spread of the virus to others.
+  
+                              </div>
+                            </div>
+                        </div> --}}
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                              <button class="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Is PrEP safe?
+                              </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                • <strong>PrEP</strong>   is safe, but some people experience side effects like diarrhea, nausea, headache, fatigue, and stomach pain. These side effects usually go away over time. <br>
+                                • Tell your health care provider about any side effects that are severe or do not go away.
+  
+                              </div>
+                            </div>
+                        </div>
+                      </div>
                 </div>
-                <div class="col-lg-3 d-none d-lg-block">
+                <div class="col-lg-2 d-none d-lg-block">
                     <div class="testimonial-right h-100">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="{{ asset('landing/img/testimonial-1.jpg' )}}" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="{{ asset('landing/img/testimonial-2.jpg')}}" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="{{ asset('landing/img/testimonial-3.jpg')}}" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="{{ asset('landing/img/ambulance.png' )}}" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="{{ asset('landing/img/hiv.png')}}" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="{{ asset('landing/img/location.png')}}" alt="">
                     </div>
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
     <!-- Testimonial End -->
 
 
@@ -571,7 +629,7 @@
         <div class="container py-5">
             <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                    <h1 class="display-5 mb-0">Reach out to Us</h1>
                 </div>
                 <div class="col-lg-6 text-lg-end">
                     

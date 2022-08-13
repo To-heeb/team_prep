@@ -16,7 +16,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="{{ asset('admin/css/vertical-layout-light/style.css') }}">
   <!-- endinject -->
-  <link rel="shortcut icon" href="{{ asset('admin/images/logo-mini.svg') }}" />
+  <link rel="shortcut icon" href="{{ asset('landing/img/vitacess-logo.png') }}" />
 </head>
 
 <body>
@@ -27,7 +27,7 @@
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo">
-                <img src="{{ asset('admin/images/logo2.svg')}}" alt="logo">
+                <img src="{{ asset('landing/img/vitacess-logo.png')}}" alt="logo">
               </div>
               <h4>New here?</h4>
               <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>

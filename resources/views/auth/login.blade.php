@@ -16,7 +16,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="{{ asset('admin/css/vertical-layout-light/style.css') }}">
   <!-- endinject -->
-  <link rel="shortcut icon" href="{{ asset('admin/images/logo-mini.svg') }}" />
+  <link rel="shortcut icon" href="{{ asset('landing/img/vitacess-logo.png') }}" />
 </head>
 
 <body>
@@ -27,7 +27,7 @@
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo">
-                <img src="{{ asset('admin/images/logo2.svg')}}" alt="logo">
+                <img src="{{ asset('landing/img/vitacess-logo.png')}}" alt="logo" width="50" height="100">
               </div>
                 @if (session('status'))
                     <input type="hidden" id="status" name="status" value="{{ session('status') }}" />
